@@ -21,4 +21,6 @@ Archivos principales
 * PrometeoTicketHP.csproj: configuración del proyecto.
 
 Evidencia visual
+## Evidencia visual de la aplicación
 
+![Ticket POT O' GOLD](TICKET%20FUNCIONANDO.PNG)
