@@ -1,0 +1,190 @@
+Docklight Log File (ASCII) - Started 03/07/2026 10:31:40.809 
+<CAN><SO>> DATE: 11/20/80   <<DC4><LF><CR>
+TICKET#00000004 CREDIT VALUE   =   $0.25<LF><CR>
+<SO>** VOUCHER TICKET **<DC4><LF><CR>
+<SO>**  WILD JOKERS   **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><<<   $    2.50  >>><DC4><LF><CR>
+<SO>CREDITS:          10<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED         VAL#  036F68F6<LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+                                        <LF><CR>
+----------------------------------------<LF><CR>
+LEISURE TIME TECH. VER:POG_595D/R595WBS1<LF><CR>
+<SO>MACH#000001 BANK#001<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><LEISURE TIME TECH.><DC4><LF><CR>
+******* VALID ON THIS DATE ONLY! *******<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+----------------------------------------<LF><CR>
+<NUL>?<NUL>?шь
+03/07/2026 14:18:23.538 [RX] - <NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+
+03/07/2026 14:18:33.905 [TX] - <CAN><SO>00:11:44 * 11/12/80 <DC4><LF><CR>
+TICKET#00000036  POINT VALUE   =   $60.0<LF><CR>
+<SO>**  TEST  TICKET  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED                       <LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+                                        <LF><CR>
+----------------------------------------<LF><CR>
+LEISURE TIME TECH. VER:POG_595D/R595WBS1<LF><CR>
+<SO>MACH#000001 BANK#001<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><LEISURE TIME TECH.><DC4><LF><CR>
+******* VALID ON THIS DATE ONLY! *******<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+----------------------------------------<LF><CR>
+
+03/07/2026 14:18:36.045 [RX] - <CR><LF>
+=== EVENTO: NUEVO TICKET PROCESADO ===<CR><LF>
+ -> Boleto #: 00000036<CR><LF>
+ -> Fecha/Hora:  | <CR><LF>
+ -> Terminal/Lic:  | <CR><LF>
+ -> Monto: $6000 centavos<CR><LF>
+ -> BCD SAS: [00 00 60 00]<CR><LF>
+
+03/07/2026 14:19:29.116 [TX] - €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€<CAN><SO>01:05:56 * 20/11/80 <DC4><LF><CR>
+BOLETO#00000037VALOR CREDITO   =   $0.25<LF><CR>
+<SO>**  BOLETO MSTRA  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED                       <LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+                                        <LF><CR>
+----------------------------------------<LF><CR>
+LEISURE TIME TECH. VER:POG_595D/R595WBS1<LF><CR>
+<SO>MACH#000001 BANK#001<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><LEISURE TIME TECH.><DC4><LF><CR>
+******* VALID ON THIS DATE ONLY! *******<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+----------------------------------------<LF><CR>
+<CAN><SO>01:06:38 * 20/11/80 <DC4><LF><CR>
+BOLETO#00000038VALOR CREDITO   =   $0.25<LF><CR>
+<SO>**  BOLETO MSTRA  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED                       <LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+            
+03/07/2026 14:19:33.388 [RX] - <CR><LF>
+=== EVENTO: NUEVO TICKET PROCESADO ===<CR><LF>
+ -> Boleto #: 00000038<CR><LF>
+ -> Fecha/Hora:  | <CR><LF>
+ -> Terminal/Lic:  | <CR><LF>
+ -> Monto: $25 centavos<CR><LF>
+ -> BCD SAS: [00 00 00 25]<CR><LF>
+
+03/07/2026 14:22:44.981 [TX] - <CAN><SO>> DATE: 11/20/80   <<DC4><LF><CR>
+TICKET#00000004 CREDIT VALUE   =   $0.25<LF><CR>
+<SO>** VOUCHER TICKET **<DC4><LF><CR>
+<SO>**  WILD JOKERS   **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><<<   $    2.50  >>><DC4><LF><CR>
+<SO>CREDITS:          10<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED         VAL#  036F68F6<LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+                                        <LF><CR>
+----------------------------------------<LF><CR>
+LEISURE TIME TECH. VER:POG_595D/R595WBS1<LF><CR>
+<SO>MACH#000001 BANK#001<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><LEISURE TIME TECH.><DC4><LF><CR>
+******* VALID ON THIS DATE ONLY! *******<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+----------------------------------------<LF><CR>
+<NUL>?<NUL>?шь
+03/07/2026 14:22:45.097 [RX] - ??<CR><LF>
+=== EVENTO: NUEVO TICKET PROCESADO ===<CR><LF>
+ -> Boleto #: 00000004<CR><LF>
+ -> Fecha/Hora:  | <CR><LF>
+ -> Terminal/Lic:  | <CR><LF>
+ -> Monto: $25 centavos<CR><LF>
+ -> BCD SAS: [00 00 00 25]<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0: Event-Driven y Suite TicketData Activos<CR><LF>
+<NUL>?Libreria v2.0 Lista. Esperando 5s para prueba de impresion...<CR><LF>
+-> Enviando trama cruda a la impresora SP1-BNS...<CR><LF>
+<CAN><SO>01:05:56 * 20/11/80 <DC4><LF><CR>
+BOLETO#00000037 POINT VALUE   =   $0.25<LF><CR>
+<SO>**  TEST TICKET  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<NUL>?Libreria v2.0 Lista. Esperando 5s para prueba de impresion...<CR><LF>
+-> Enviando trama cruda a la impresora SP1-BNS...<CR><LF>
+<CAN><SO>01:05:56 * 20/11/80 <DC4><LF><CR>
+BOLETO#00000037 POINT VALUE   =   $0.25<LF><CR>
+<SO>**  TEST TICKET  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+
+03/07/2026 14:33:03.163 [TX] - <CAN><SO>> DATE: 11/20/80   <<DC4><LF><CR>
+TICKET#00000004 CREDIT VALUE   =   $0.25<LF><CR>
+<SO>** VOUCHER TICKET **<DC4><LF><CR>
+<SO>**  WILD JOKERS   **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><<<   $    2.50  >>><DC4><LF><CR>
+<SO>CREDITS:          10<DC4><LF><CR>
+----------------------------------------<LF><CR>
+VOID IF MUTILATED         VAL#  036F68F6<LF><CR>
+COPYRIGHT 1986-01 LEISURE TIME TECH.INC.<LF><CR>
+----------------------------------------<LF><CR>
+                                        <LF><CR>
+                                        <LF><CR>
+----------------------------------------<LF><CR>
+LEISURE TIME TECH. VER:POG_595D/R595WBS1<LF><CR>
+<SO>MACH#000001 BANK#001<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<SO><LEISURE TIME TECH.><DC4><LF><CR>
+******* VALID ON THIS DATE ONLY! *******<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+----------------------------------------<LF><CR>
+<NUL>?<NUL>?шь
+03/07/2026 14:33:05.302 [RX] - <CR><LF>
+=== EVENTO: NUEVO TICKET PROCESADO ===<CR><LF>
+ -> Boleto #: 00000004<CR><LF>
+ -> Fecha/Hora:  | <CR><LF>
+ -> Terminal/Lic:  | <CR><LF>
+ -> Monto: $25 centavos<CR><LF>
+ -> BCD SAS: [00 00 00 25]<CR><LF>
+<NUL>?Libreria v2.0 Lista. Esperando 5s para prueba de impresion...<CR><LF>
+-> Enviando trama cruda a la impresora SP1-BNS...<CR><LF>
+<CAN><SO>01:05:56 * 20/11/80 <DC4><LF><CR>
+BOLETO#00000037 POINT VALUE   =   $0.25<LF><CR>
+<SO>**  TEST TICKET  **<DC4><LF><CR>
+----------------------------------------<LF><CR>
+<EM><NUL>TERMINAL#D249 BR#03 MK#0301 LICENSE#0000<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+<LF><CR>
+
+
+Docklight Log File (ASCII) - Stopped 03/07/2026 16:04:11.728 
+
