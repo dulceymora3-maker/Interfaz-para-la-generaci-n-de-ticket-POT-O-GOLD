@@ -85,8 +85,9 @@ namespace PrometeoTicketHP {
      "TERMINAL#D249 BR#03 MK#0301 LICENSE#0000",
      "----------------------------------------"
     };
-    // Si se selecciona COM, se envía texto ASCII directamente a 2400 baudios.
-    // El dispositivo debe admitir texto ASCII con finales de línea CR/LF.
+     // Si se selecciona un puerto COM, se envían las líneas
+    // del ticket mediante comunicación serial a 2400 baudios.
+   // El texto se codifica en ASCII y se separa con CR/LF.
     string puertoSeleccionado = Puertos.SelectedItem as string;
     if (!string.IsNullOrWhiteSpace(puertoSeleccionado) && puertoSeleccionado != "Sin seleccionar") {
      using (var serial = new SerialPort(puertoSeleccionado, BaudiosImpresora,
