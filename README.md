@@ -1,4 +1,4 @@
-*Interfaz para la generación de tickets POT O’ GOLD*
+# Interfaz para la generación de tickets POT O’ GOLD
 
 Descripción
 
