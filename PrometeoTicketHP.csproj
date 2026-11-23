@@ -4,11 +4,11 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>PrometeoTicketHP</AssemblyName>
-    <RootNamespace>PrometeoTicketHP</RootNamespace>
+    <RootNamespacePrometeoTicketHP</RootNamespace>
     <Nullable>disable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
-    <Resource Include="Assets\PrometeoLogo.png" />
+    <PackageReference Include="System.IO Ports" Version="8.0.0" /
+    <Resource Include"Assets\PrometeoLogo.png" />
   </ItemGroup>
 </Project>
