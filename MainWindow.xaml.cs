@@ -20,7 +20,7 @@ namespace PrometeoTicketHP {
       if (!string.IsNullOrWhiteSpace(port) && !Puertos.Items.Contains(port)) Puertos.Items.Add(port);
      }
     }
-   } catch (Exception) { /* La ventana funciona aunque no haya puertos. */ }
+   } catch (Exception) { /* La ventana funciona aunque no haya puertosDOEM. */ }
    Puertos.SelectedIndex = 0;
   }
 
@@ -61,7 +61,7 @@ namespace PrometeoTicketHP {
      FontFamily = new FontFamily("Consolas"), FontSize = 13,
      PagePadding = new Thickness(20), ColumnWidth = double.PositiveInfinity
     };
-    // Primer ticket: formato WILD JOKERS basado en el primer boleto del Datos_asc.
+    // Primer ticket: formato WILD JOKERS basado en el primer boleto del Datos_asc.DOEM
     string[] lineas = {
      "DATE: " + DateTime.Now.ToString("MM/dd/yy"),
      "TICKET#00000004 CREDIT VALUE = $" + PesosPorCredito.ToString("F2", CultureInfo.InvariantCulture),
@@ -85,9 +85,9 @@ namespace PrometeoTicketHP {
      "TERMINAL#D249 BR#03 MK#0301 LICENSE#0000",
      "----------------------------------------"
     };
-     // Si se selecciona un puerto COM, se envían las líneas
-    // del ticket mediante comunicación serial a 2400 baudios.
-   // El texto se codifica en ASCII y se separa con CR/LF.
+     // Si se selecciona un puerto COM, se envían las líneasDOEM
+    // del ticket mediante comunicación serial a 2400 baudiosDOEM.
+   // El texto se codifica en ASCII y se separa con CR/LFDOEM.
     string puertoSeleccionado = Puertos.SelectedItem as string;
     if (!string.IsNullOrWhiteSpace(puertoSeleccionado) && puertoSeleccionado != "Sin seleccionar") {
      using (var serial = new SerialPort(puertoSeleccionado, BaudiosImpresora,
@@ -101,7 +101,7 @@ namespace PrometeoTicketHP {
      Estado.Text = "Ticket enviado a " + puertoSeleccionado + ".";
      return;
     }
-    // Si no se elige COM, se conserva la impresión normal de Windows.
+    // Si no se elige COM, se conserva la impresión normal de WindowsDOEM.
     var dialogo = new PrintDialog();
     if (dialogo.ShowDialog() != true) {
      Estado.Text = "Impresión cancelada.";
