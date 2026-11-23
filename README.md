@@ -20,6 +20,6 @@ Archivos principales
 * App.xaml: configuración de la aplicación.
 * PrometeoTicketHP.csproj: configuración del proyecto.
 
-Evidencia visual
+Evidencia visualDOEM
 
 ![Ticket POT O' GOLD](TICKET%20FUNCIONANDO.PNG)
